@@ -9,11 +9,11 @@
 
 /* ============================ Private constants =========================== */
 
-extern uintptr_t _kend;
+extern uintptr_t __kernel_end;
 
 /* ============================ Private variables =========================== */
 
-uintptr_t placement_addr = (uintptr_t)&_kend;
+uintptr_t placement_addr = (uintptr_t)&__kernel_end;
 
 /* =========================== External functions =========================== */
 
